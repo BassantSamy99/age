@@ -13,12 +13,10 @@ function displayAge() {
     
     if ( age >= 18) {
 
-        showAge.innerHTML = `<h2>Your age is <span class="green">${age}</span></h2>
-        <h2>You are Young</h2>`;
+        showAge.innerHTML = `<h2>Your age is <span class="green">${age}</span></h2>`;
     }
     else {
-        showAge.innerHTML = `<h2>Your age is <span class="green">${age}</span></h2>
-        <h2>You are Kid</h2>`;
+        showAge.innerHTML = `<h2>Your age is <span class="green">${age}</span></h2>`;
     }
     for (let i=1; i<=age ; i++) {
         showAge.innerHTML += '<span class="h2">*</span>';
